@@ -1,0 +1,31 @@
+# Login
+POST https://localhost:7070/Account/Login
+Content-Type: application/json
+
+{
+  "email": "Wesam@gmail.com",
+  "password": "Wesam@204"
+}
+
+###
+
+# Register user
+POST https://localhost:7070/Account/Register
+Content-Type: application/json
+
+{
+  "name": "Wesam",
+  "email": "Wesam@gmail.com",
+  "password": "Wesam@204"
+}
+
+###
+
+# login admin
+POST https://localhost:7070/Account/Login
+Content-Type: application/json
+
+{
+  "email": "admin@gmail.com",
+  "password": "Wesam@204"
+}
